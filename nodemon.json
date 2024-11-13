@@ -1,0 +1,5 @@
+{
+    "watch": ["src", "public", "services", "views"],
+    "ext": ".js, .ts, .pug",
+    "ignore": []
+  }

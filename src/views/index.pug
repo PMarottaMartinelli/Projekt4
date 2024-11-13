@@ -1,0 +1,19 @@
+
+extends layout
+block content 
+    .row
+        .col
+            .mx-5
+                h1 Diablo 2 Ressurected Item Datenbank Übersicht
+                table.table
+                    thead 
+                        tr
+                            th Kurs
+                            th Kursname
+                    tbody
+                        for kurs in kurse
+                            tr
+                                th
+                                    a(href="/datum/"+kurs.id)=kurs.id
+                                th  
+                                    a(href="/datum/"+kurs.id)=kurs.Name

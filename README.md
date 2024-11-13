@@ -5,11 +5,13 @@ Projekt November
 Projekt Inhalt und Beschreibung: "D2r Item Database" 
 
 // Eine Webanwendung, die mittels Datenbankzugriff eine Itemdatenbank aufrufen lässt.                                 
-// Die Items lassen sich in Überkategorien auf der Hauptseite anzeigen.
+
 
 -Framework bzw backend basiert auf Node.js und express
 -Webseiten bzw frontend werden mit PUG dargestellt
--Datenbank zugriff erfolgt mittels MongoDB     
+-Datenbank zugriff erfolgt mittels MongoDB   
+
+// Die Items lassen sich in Überkategorien auf der Hauptseite anzeigen.
 
 Hautseite: Diablo 2 Resurrected Items
 
