@@ -8,12 +8,11 @@ block content
                 table.table
                     thead 
                         tr
-                            th Kurs
-                            th Kursname
+                            th Item Übersicht
                     tbody
-                        for kurs in kurse
+                        for item in items
                             tr
                                 th
-                                    a(href="/datum/"+kurs.id)=kurs.id
+                                    a(href="/Items/"+kurs.id)=kurs.id
                                 th  
-                                    a(href="/datum/"+kurs.id)=kurs.Name
+                                    a(href="/Items/"+kurs.id)=kurs.Name
